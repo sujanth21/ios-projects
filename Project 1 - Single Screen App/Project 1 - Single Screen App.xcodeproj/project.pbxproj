@@ -12,6 +12,7 @@
 		83B738E31F8A4A3E00D6312A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B738E11F8A4A3E00D6312A /* Main.storyboard */; };
 		83B738E51F8A4A3E00D6312A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B738E41F8A4A3E00D6312A /* Assets.xcassets */; };
 		83B738E81F8A4A3E00D6312A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B738E61F8A4A3E00D6312A /* LaunchScreen.storyboard */; };
+		83B738F41F8A535F00D6312A /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B738F31F8A535F00D6312A /* RoundedCornerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83B738E41F8A4A3E00D6312A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B738E71F8A4A3E00D6312A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B738E91F8A4A3E00D6312A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B738F31F8A535F00D6312A /* RoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		83B738F01F8A4BC300D6312A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83B738F31F8A535F00D6312A /* RoundedCornerButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B738F41F8A535F00D6312A /* RoundedCornerButton.swift in Sources */,
 				83B738E01F8A4A3E00D6312A /* ViewController.swift in Sources */,
 				83B738DE1F8A4A3E00D6312A /* AppDelegate.swift in Sources */,
 			);
