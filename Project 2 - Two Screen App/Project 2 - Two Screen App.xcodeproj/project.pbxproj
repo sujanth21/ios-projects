@@ -12,6 +12,7 @@
 		83B739071F8B9F2000D6312A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B739051F8B9F2000D6312A /* Main.storyboard */; };
 		83B739091F8B9F2000D6312A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B739081F8B9F2000D6312A /* Assets.xcassets */; };
 		83B7390C1F8B9F2000D6312A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B7390A1F8B9F2000D6312A /* LaunchScreen.storyboard */; };
+		83B739181F8BA1CB00D6312A /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B739171F8BA1CB00D6312A /* RoundedCornerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83B739081F8B9F2000D6312A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B7390B1F8B9F2000D6312A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B7390D1F8B9F2000D6312A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B739171F8BA1CB00D6312A /* RoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		83B739001F8B9F2000D6312A /* Project 2 - Two Screen App */ = {
 			isa = PBXGroup;
 			children = (
-				83B739011F8B9F2000D6312A /* AppDelegate.swift */,
-				83B739031F8B9F2000D6312A /* ViewController.swift */,
+				83B739161F8BA19400D6312A /* Models */,
+				83B739151F8BA18A00D6312A /* Views */,
+				83B739141F8BA17700D6312A /* Controllers */,
+				83B739131F8BA15D00D6312A /* Supporting Files */,
 				83B739051F8B9F2000D6312A /* Main.storyboard */,
-				83B739081F8B9F2000D6312A /* Assets.xcassets */,
-				83B7390A1F8B9F2000D6312A /* LaunchScreen.storyboard */,
 				83B7390D1F8B9F2000D6312A /* Info.plist */,
 			);
 			path = "Project 2 - Two Screen App";
+			sourceTree = "<group>";
+		};
+		83B739131F8BA15D00D6312A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B739011F8B9F2000D6312A /* AppDelegate.swift */,
+				83B739081F8B9F2000D6312A /* Assets.xcassets */,
+				83B7390A1F8B9F2000D6312A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83B739141F8BA17700D6312A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83B739031F8B9F2000D6312A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83B739151F8BA18A00D6312A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83B739171F8BA1CB00D6312A /* RoundedCornerButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83B739161F8BA19400D6312A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B739181F8BA1CB00D6312A /* RoundedCornerButton.swift in Sources */,
 				83B739041F8B9F2000D6312A /* ViewController.swift in Sources */,
 				83B739021F8B9F2000D6312A /* AppDelegate.swift in Sources */,
 			);
