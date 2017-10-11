@@ -9,43 +9,44 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    var employeeNames = ["James Peter", "Mike Ruben", "Branson Kite", "Rubio Matthew", "Rubert Molony", "Ritchi John"]
+    
+    var employeeTitles = ["Software Engineer", "Network Engineer", "Mobile Developer", "Database Administrator", "Project Manager", "Software Architect"]
+    
+    var employeeImages = ["1", "2", "3", "4", "5", "6"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return employeeNames.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
 
         // Configure the cell...
+        
+        cell.cellImage.image = UIImage(named: employeeImages[indexPath.row])
+        cell.cellName.text = employeeNames[indexPath.row]
+        cell.cellTitle.text = employeeTitles[indexPath.row]
 
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.
