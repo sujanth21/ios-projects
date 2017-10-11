@@ -10,10 +10,24 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    
+    @IBOutlet weak var personImage: UIImageView!
+    @IBOutlet weak var personName: UILabel!
+    @IBOutlet weak var personTitle: UILabel!
+    @IBOutlet weak var personDescription: UITextView!
+    
+    var personImg: String!
+    var person: String!
+    var personJobTitle: String!
+    var personDesc: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        personImage.image = UIImage(named: personImg)
+        personName.text = person
+        personTitle.text = personJobTitle
+        personDescription.text = personDesc
     }
 
     override func didReceiveMemoryWarning() {

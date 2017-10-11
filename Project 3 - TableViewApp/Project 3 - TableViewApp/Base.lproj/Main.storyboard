@@ -175,6 +175,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VDO-VS-6IM"/>
                     </view>
+                    <connections>
+                        <outlet property="personDescription" destination="4Fo-o5-ifE" id="Auu-p5-cdi"/>
+                        <outlet property="personImage" destination="zb8-PU-upg" id="e1F-VN-Ica"/>
+                        <outlet property="personName" destination="iyt-IR-FE7" id="kpp-K7-hA4"/>
+                        <outlet property="personTitle" destination="JG1-Z6-VXg" id="yMj-Vb-hOZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YS2-64-yML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
