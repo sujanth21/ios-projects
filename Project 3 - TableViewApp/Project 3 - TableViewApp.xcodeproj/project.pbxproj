@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8375C9281F8E4B8300683EDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375C9271F8E4B8300683EDB /* DetailViewController.swift */; };
+		8375C92A1F8E4DB400683EDB /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375C9291F8E4DB400683EDB /* RoundedCornerButton.swift */; };
 		83B739261F8CE50400D6312A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B739251F8CE50400D6312A /* AppDelegate.swift */; };
 		83B7392B1F8CE50400D6312A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B739291F8CE50400D6312A /* Main.storyboard */; };
 		83B7392D1F8CE50400D6312A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B7392C1F8CE50400D6312A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8375C9271F8E4B8300683EDB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8375C9291F8E4DB400683EDB /* RoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
 		83B739221F8CE50400D6312A /* Project 3 - TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 3 - TableViewApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B739251F8CE50400D6312A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B7392A1F8CE50400D6312A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		83B739391F8CE55900D6312A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8375C9291F8E4DB400683EDB /* RoundedCornerButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				83B7393E1F8CE62400D6312A /* TableViewCell.swift in Sources */,
 				83B739261F8CE50400D6312A /* AppDelegate.swift in Sources */,
 				83B7393C1F8CE58900D6312A /* TableViewController.swift in Sources */,
+				8375C92A1F8E4DB400683EDB /* RoundedCornerButton.swift in Sources */,
 				8375C9281F8E4B8300683EDB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
