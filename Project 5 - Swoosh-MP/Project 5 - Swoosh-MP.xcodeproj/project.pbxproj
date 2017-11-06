@@ -12,6 +12,7 @@
 		83D8609E1FB115D500FE4B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D8609C1FB115D500FE4B29 /* Main.storyboard */; };
 		83D860A01FB115D500FE4B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D8609F1FB115D500FE4B29 /* Assets.xcassets */; };
 		83D860A31FB115D500FE4B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D860A11FB115D500FE4B29 /* LaunchScreen.storyboard */; };
+		83D860AC1FB1190900FE4B29 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D860AB1FB1190900FE4B29 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83D8609F1FB115D500FE4B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D860A21FB115D500FE4B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D860A41FB115D500FE4B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D860AB1FB1190900FE4B29 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		83D860971FB115D500FE4B29 /* Project 5 - Swoosh-MP */ = {
 			isa = PBXGroup;
 			children = (
+				83D860AA1FB118EA00FE4B29 /* Views */,
 				83D860981FB115D500FE4B29 /* AppDelegate.swift */,
 				83D8609A1FB115D500FE4B29 /* ViewController.swift */,
 				83D8609C1FB115D500FE4B29 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				83D860A41FB115D500FE4B29 /* Info.plist */,
 			);
 			path = "Project 5 - Swoosh-MP";
+			sourceTree = "<group>";
+		};
+		83D860AA1FB118EA00FE4B29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83D860AB1FB1190900FE4B29 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				83D8609B1FB115D500FE4B29 /* ViewController.swift in Sources */,
 				83D860991FB115D500FE4B29 /* AppDelegate.swift in Sources */,
+				83D860AC1FB1190900FE4B29 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
